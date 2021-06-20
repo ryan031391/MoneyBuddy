@@ -1,0 +1,43 @@
+
+.pie-chart{
+    width: 1200px;
+    height: 1000px;
+    
+}
+.report {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.legend{
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    right: 13%;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.legend div{
+    margin-bottom: 42px;
+    
+}
+
+
+.legend div button{
+        width: 34px;
+    height: 20px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 9px;
+
+}
+
+.report{
+    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(34,171,195,1) 99%);
+    
+}
+

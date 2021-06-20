@@ -1,0 +1,73 @@
+.nav-bar-left a{
+     padding: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+}
+
+
+.user{
+    padding: 19px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181;
+    display: block;
+    text-align: center;
+}
+.point div{
+  display:inline-block;
+   font-size:"14px";
+    color:whitesmoke;
+    margin-left: 2px;
+}
+
+.point{
+     text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+    text-align: center;
+    border-bottom: 1px solid #818181;
+    margin-bottom: 40px;
+}
+
+.nav-bar-left button{
+     background-color: #ffffff;
+    opacity: 0.6;
+    width: 77px;
+    height: 32px;
+    border-radius: 11px;
+    margin-top: 25px;
+     margin-left: 70px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-bar-left button:hover{
+  background-color: lightgray;
+}
+
+.nav-bar-left button:active{
+  background-color: rgb(196, 194, 194);
+}
+
+
+
+.nav-bar-left{
+
+  width: 15%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: black;
+  box-shadow: 0 8px 35px -10px rgb(0 0 0 / 30%), 0 4px 30px 0px rgb(0 0 0 / 15%), 0 10px 8px -5px rgb(0 0 0 / 25%);
+}
+
+
+

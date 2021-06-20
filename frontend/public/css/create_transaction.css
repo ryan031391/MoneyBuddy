@@ -1,0 +1,131 @@
+  
+  .create-transaction{
+    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(34,171,195,1) 99%);
+    height: 1100px;
+    width: 100%;
+  }
+
+  .create-transaction h1{
+    text-align: left;
+    font-size: 29px;
+    color: whitesmoke;
+    font-weight: 800;
+    padding: 20px;
+   margin-left: 100px;
+   margin-bottom: 30px;
+}
+
+
+.create-form{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.react-calendar{
+  width: 380px;
+}
+.calendar{
+  width: 60%;
+  padding-top: 100px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 50%;
+  height: 100%;
+  margin-top: 200px;
+  margin-right: 20px;
+  justify-content: space-between;
+   box-sizing: border-box;
+}
+
+
+  .input-info textarea{
+
+  margin: 5px 0;
+  display: inline-block;
+
+  border: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 17px;
+    padding: 5px;
+  width: 500px;
+  height: 100px;
+  outline: none;
+}
+
+.input-info1 input[type=text]{
+
+  margin: 5px 0;
+  display: inline-block;
+  padding: 5px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 17px;
+
+ width: 300px;
+  height: 41px;
+
+
+}
+
+
+
+.info button{
+
+     background-color: #ffffff;
+    opacity: 0.6;
+    width: 77px;
+    height: 32px;
+    border-radius: 11px;
+    margin-top: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.select-type{
+      width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    padding: 4px;
+    background-color: #D4E9ED;
+  outline: none;    
+}
+
+
+
+.info h2{
+  margin-top: 25px;
+  margin-bottom: 5px;
+  
+}
+
+.drop-down{
+   width: 300px;
+  border-radius: 2px;
+
+ 
+}
+
+.img-icon{
+  display: flex;
+}
+.img-icon img{
+  display: inline-block;
+ width: 35px;
+    height: 29px;
+}
+.img-icon h3{
+ display: inline-block;
+  padding-top: 2px;
+  padding-left: 5px;
+ 
+}

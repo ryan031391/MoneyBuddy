@@ -1,0 +1,99 @@
+.icon-checked img{
+    margin-right: auto 0;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    cursor: pointer; 
+    margin: 25px;
+}
+
+.icon-unchecked img{
+    margin-right: auto 0;
+     width: 50px;
+    height: 50px;
+     margin: 25px;
+     cursor: pointer;
+      background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+   position: relative;
+   padding: 3px;
+   overflow-x: hidden;
+}
+
+
+
+
+.icon-shop{
+    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(34,171,195,1) 99%);
+    height: 1100px;
+    width: 100%;
+}
+
+
+.icons{
+   width: 900px;
+    display: flex;
+     flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 50px;
+    
+
+}
+
+.icon-shop h1{
+ text-align: center;
+ font-size: 29px;
+ color: whitesmoke;
+ font-weight: 800;
+  padding-top: 50px;
+    margin-right: 105px;
+
+}
+ .icons>* {
+    flex: 0 0 20%;
+ }
+
+
+ .pop-up-content{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin: 15% auto;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+   
+}
+
+.pop-up{
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: gray;
+     background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.pop-up-button button{
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    padding: 6px;
+    background-color: #D4E9ED;
+    cursor: pointer;
+}
+
+
+.yes{
+    margin-right: 70px;
+}
+.pop-up-button{
+    padding-top: 23px;
+}
+
+
+
+
